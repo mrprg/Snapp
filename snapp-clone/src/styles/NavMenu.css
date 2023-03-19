@@ -1,0 +1,17 @@
+.menu-container {
+    direction: rtl;
+    height: 100%;
+    border-top: 1px solid rgba(100, 102, 100, 0.466);
+}
+
+.menu-items {
+    padding: 10px;
+}
+
+.menu-items > ul > li {
+    margin-bottom: 50px;
+    cursor: pointer;
+    padding-right: 15px;
+    color: rgb(100, 102, 100);
+    font-size: 15px;
+}
