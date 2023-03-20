@@ -1,7 +1,6 @@
 import React from "react";
 import { useStateContext } from "../context/ContextProvider";
 import "../styles/Navbar.css";
-
 const Navbar = () => {
   const { activeMenu, setActiveMenu } = useStateContext();
   const setNavMenu = () => {

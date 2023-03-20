@@ -1,17 +1,41 @@
 .menu-container {
-    direction: rtl;
-    height: 100%;
-    border-top: 1px solid rgba(100, 102, 100, 0.466);
+  direction: rtl;
+  border-top: 1px solid rgba(100, 102, 100, 0.466);
 }
 
 .menu-items {
-    padding: 10px;
+  padding: 10px;
+  margin-top: 15px;
 }
 
 .menu-items > ul > li {
-    margin-bottom: 50px;
-    cursor: pointer;
-    padding-right: 15px;
-    color: rgb(100, 102, 100);
-    font-size: 15px;
+  margin-bottom: 48px;
+  cursor: pointer;
+  padding-right: 15px;
+  color: rgb(65, 66, 65);
+  font-size: 15px;
+  font-weight: 400;
 }
+
+.underline {
+  height: 1px;
+  background-color: rgba(100, 102, 100, 0.466);
+  margin: 0 20px 0 20px;
+}
+
+.menu-item1 {
+  color: rgb(0, 209, 112);
+}
+
+.dropdown-menu {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 10px 35px 10px 35px;
+}
+
+.dropdown-menu > h3 {
+    color: rgb(0, 209, 112);
+    font-weight: 500;
+}
+
