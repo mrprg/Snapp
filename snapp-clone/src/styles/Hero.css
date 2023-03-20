@@ -1,0 +1,132 @@
+.hero-main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 500px;
+}
+
+img {
+  width: 50vw;
+  height: 100%;
+}
+
+.hero-text {
+  width: 50vw;
+  direction: rtl;
+  background-color: rgb(33, 170, 88);
+  color: white;
+  padding: 30px 120px 0 40px;
+  height: 100%;
+}
+
+.hero-label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-input {
+  width: 215px;
+  background-color: transparent;
+  border: none;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.hero-input::placeholder {
+  color: rgba(255, 255, 255, 0.589);
+}
+
+.hero-link-button {
+  cursor: pointer;
+  margin-left: 80px;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  color: rgb(33, 170, 88);
+  font-size: large;
+  font-weight: 500;
+}
+
+.hero-login-button {
+  margin-top: 40px;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 35px;
+  font-size: larger;
+  border-radius: 8px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.hero-login-button:hover {
+  background-color: rgba(255, 255, 255, 0.171);
+}
+
+.hero-desc {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  word-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.hero-header {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+  .hero-header {
+    font-size: 26px;
+  }
+
+  .hero-desc {
+    font-size: 15px;
+  }
+
+  .hero-link-button {
+    font-size: 17px;
+    padding: 5px 25px;
+    margin-right: 50px;
+    margin-left: 20px;
+  }
+
+  .hero-text {
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 720px) {
+  .hero-main {
+    flex-direction: column;
+  }
+
+  .hero-text {
+    width: 100%;
+    padding: 10px 30px 10px 40px;
+  }
+
+  .hero-label {
+    display: none;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .hero-login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-login-button {
+    margin-top: 0;
+    margin-bottom: 15px;
+    width: 450px;
+    background-color: white;
+    color: black;
+  }
+  .hero-login-button:hover {
+    background-color: white;
+  }
+}

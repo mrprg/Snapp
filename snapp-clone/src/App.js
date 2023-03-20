@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import "./App.css";
+import Hero from './components/Hero';
 import Navbar from "./components/Navbar";
 import NavMenu from "./components/NavMenu";
 import { useStateContext } from "./context/ContextProvider";
@@ -30,9 +31,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div className='navmenu'>
-      {activeMenu && <NavMenu  />}
-      </div>
+      <Hero />
     </div>
   );
 }
