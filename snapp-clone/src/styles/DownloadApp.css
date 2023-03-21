@@ -1,0 +1,21 @@
+.download-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 150px;
+}
+
+.download-image {
+  width: 150px;
+  margin-right: 25px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+@media(max-width:720px) {
+    .download-container {
+        display: none;
+    }
+}
