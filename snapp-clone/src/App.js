@@ -4,6 +4,7 @@ import DownloadApp from "./components/DownloadApp";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import NavMenu from "./components/NavMenu";
+import Services from "./components/Services";
 import { useStateContext } from "./context/ContextProvider";
 
 function App() {
@@ -35,9 +36,11 @@ function App() {
     <>
       <Navbar />
 
-        <Hero />
+      <Hero />
 
       <DownloadApp />
+
+     <Services />
     </>
   );
 }
