@@ -2,20 +2,21 @@
   display: flex;
   align-items: center;
   direction: rtl;
-  position: sticky;
+  position: relative;
   width: 100%;
   background-color: white;
 }
 
 .hidden-menu {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: -1000px;
 }
 
 .active-menu {
+  height: 800px;
   display: block;
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 65px;
   right: 0;
