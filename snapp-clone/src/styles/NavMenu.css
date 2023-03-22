@@ -1,4 +1,5 @@
 .menu-container {
+  height: 100vh;
   direction: rtl;
   border-top: 1px solid rgba(100, 102, 100, 0.466);
 }
@@ -6,6 +7,10 @@
 .menu-items {
   padding: 10px;
   margin-top: 15px;
+}
+
+.svg {
+  transition: all 0.2s ease-in-out !important;
 }
 
 .menu-items > ul > li {
@@ -28,14 +33,56 @@
 }
 
 .dropdown-menu {
-    display: flex;
-    align-items: center; 
-    justify-content: space-between;
-    padding: 10px 35px 10px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 35px 10px 35px;
+  cursor: pointer;
+  position: relative;
 }
 
 .dropdown-menu > h3 {
-    color: rgb(0, 209, 112);
-    font-weight: 500;
+  color: rgb(0, 209, 112);
+  font-weight: 500;
 }
 
+.dropdown-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  direction: rtl;
+}
+
+.hidden {
+  position: absolute;
+
+  top: 0;
+  left: -500px;
+
+  transition: all ease-in-out 150ms;
+}
+
+.active {
+  position: absolute;
+  top: 60px;
+  right: 27px;
+  transition: all ease-in-out 150ms;
+}
+
+.download-items > img {
+  width: 25px;
+}
+
+.download-items > p {
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.download-items {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.808);
+}
