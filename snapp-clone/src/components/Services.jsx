@@ -12,67 +12,67 @@ const servicesData = [
     imgsrc:
       "https://snapp.ir/assets/images/snapp-services/bike.svg",
     title: "پیک موتوری",
-    description: "امکان درخواست آنلاین خودرو با اسنپ",
+    description:"حمل و نقل با اسنپ",
   },
   {
     imgsrc:
       "https://jek.snapp.ir/Redesign-Icons/Pickup-new.png",
     title: "درخواست وانت",
-    description: "امکان درخواست آنلاین خودرو با اسنپ",
+    description:"حمل و نقل با اسنپ",
   },
   {
     imgsrc:
       "https://snapp.ir/assets/images/snapp-services/food.svg",
     title: "سفارش غذا آنلاین",
-    description: "امکان درخواست آنلاین خودرو با اسنپ",
+    description: "سفارش غذا و نان و شیرینی با اسنپ",
   },
   {
     imgsrc:
       "https://snapp.ir/assets/images/snapp-services/market.svg",
     title: "سوپر مارکت آنلاین",
-    description: "امکان درخواست آنلاین خودرو با اسنپ",
+    description: "تهیه اقلام روزانه با اسنپ",
   },
   {
     imgsrc:
       "https://snapp.ir/assets/images/snapp-services/market.svg",
     title: "اسنپ اکسپرس",
-    description: "امکان درخواست آنلاین خودرو با اسنپ",
+    description: "تحویل کمتر از سی دقیقه",
   },
   {
     imgsrc:
       "https://jek.snapp.ir/Redesign-Icons/New%20padding/Domestic%20Trip.png",
     title: "بلیط پرواز داخلی",
-    description: "امکان درخواست آنلاین خودرو با اسنپ",
+    description: "گردشگری با اسنپ",
   },
   {
     imgsrc:
       "https://jek.snapp.ir/Redesign-Icons/New%20padding/Domestic%20Trip.png",
     title: "بلیط پرواز خارجی", 
-    description: "امکان درخواست آنلاین خودرو با اسنپ",
+    description: "گردشگری با اسنپ",
   },
   {
     imgsrc:
       "https://snapp.ir/assets/images/snapp-services/doctor.svg",
     title: "دکتر",
-    description: "امکان درخواست آنلاین خودرو با اسنپ",
+    description: "درمان با اسنپ",
   },
   {
     imgsrc:
       "https://jek.snapp.ir/Redesign-Icons/hotel.png",
     title: "رزرو هتل",
-    description: "امکان درخواست آنلاین خودرو با اسنپ",
+    description: "گردشگری با اسنپ",
   },
   {
     imgsrc:
       "https://snapp.ir/assets/images/snapp-services/trip.svg",
     title:"رزرو اقامتگاه",
-    description: "امکان درخواست آنلاین خودرو با اسنپ",
+    description: "گردشگری با اسنپ",
   },
   {
     imgsrc:
       "https://jek.snapp.ir/Redesign-Icons/new%20Shop.png",
     title: "فروشگاه",
-    description: "امکان درخواست آنلاین خودرو با اسنپ",
+    description: "خرید از فروشگاه های معتبر شهر",
   },
 ];
 
