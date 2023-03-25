@@ -41,6 +41,10 @@ function App() {
       <DownloadApp />
 
      <Services />
+
+     <div className="food-order-image">
+      <img src="https://cdn.donya-e-eqtesad.com/thumbnail/aPUe4kUSCGHH/QHn8O9nsSzT8qCU7RegsN6Pbb5v74eEtbKeSOh05RaY4kX0q0_Y_8Ut7TZyzEhnm/%D8%A7%D8%B3%D9%86%D9%BE.jpg" />
+     </div>
     </>
   );
 }

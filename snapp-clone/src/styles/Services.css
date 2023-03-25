@@ -7,7 +7,6 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(229, 231, 233, 0.616);
-  margin-bottom: 30px;
 }
 
 .services-header {
@@ -20,6 +19,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+  margin-bottom: 10px;
 }
 
 .services-wrapper {
