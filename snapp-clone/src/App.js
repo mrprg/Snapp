@@ -34,7 +34,9 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <div className="navbar-position-sticky">
+          <Navbar/>
+      </div>
 
       <Hero />
 
