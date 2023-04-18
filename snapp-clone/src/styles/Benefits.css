@@ -1,158 +1,147 @@
 .main {
-  background-color: rgb(242, 245, 248);
-  direction: rtl;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.header-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 30px 0px 0px 0px;
-}
-
-.header {
-  margin-bottom: 20px;
-  color: rgb(64, 64, 64);
-}
-
-.description {
-  font-size: 19px;
-  margin-bottom: 30px;
-  color: rgb(70, 64, 94);
-}
-
-.button {
-  font-size: larger;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  background-color: rgb(0, 219, 117);
-  padding: 15px 60px;
-  margin-bottom: 15px;
-  cursor: pointer;
-}
-
-.video-wrapper {
-  display: flex;
-  align-self: center;
-  justify-content: center;
-}
-
-.video-player {
-  width: 1250px;
-  border-radius: 10px;
-}
-
-/* this breakpoint coming from tailwind website, you can check it out! */
-
-@media (max-width: 1536px) {
-  .video-player {
-    width: 1000px;
-  }
-
-  .description {
-    font-size: 18px;
-    font-weight: 500;
-  }
-  .button {
-    margin-bottom: 15px;
-  }
-}
-
-@media (max-width: 1280px) {
-  .video-player {
-    width: 720px;
-  }
-  .description {
-    font-size: 18px;
-    font-weight: 500;
-  }
-
-  .button {
-    font-size: large;
-    margin-bottom: 15px;
-    padding: 10px 50px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .header {
-    font-size: 26px;
-  }
-
-  .description {
-    font-size: 18px;
-    font-weight: 500;
-  }
-
-  .button {
-    font-size: large;
-    margin-bottom: 15px;
-    padding: 10px 40px;
-  }
-
-  .video-player {
-    width: 580px;
-  }
-}
-
-@media (max-width: 768px) {
-  .header {
-    font-size: 20px;
-  }
-
-  .button {
-    font-size: large;
-    margin-bottom: 15px;
-    padding: 10px 30px;
-  }
-
-  .description {
-    font-size: 15px;
-    font-weight: 500;
-  }
-
-  .video-player {
-    width: 430px;
-  }
-}
-
-@media (max-width: 640px) {
-  .header-wrapper {
+    background-color: rgb(140, 155, 170);
+    direction: rtl;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-  .header {
-    padding: 0px 30px;
-    font-size: 40px;
-    font-weight: 900;
-  }
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px 0px 0px;
+}
 
-  .button {
-    font-weight: 600;
-    font-size: large;
-    margin: 18px;
-    padding: 15px 30px;
-  }
+.header {
+    margin-bottom: 20px;
+    color: rgb(64, 64, 64);
+}
 
-  .description {
-    padding: 0px 20px;
-    font-size: 25px;
-    font-weight: 400;
-  }
+.description {
+    font-size: 19px;
+    margin-bottom: 30px;
+    color: rgb(70, 64, 94);
+}
 
-  .video-player {
-    width: 370px;
-    margin-top: 15px;
-  }
+.button {
+    font-size: larger;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 219, 117);
+    padding: 15px 60px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.video-wrapper {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.video-player {
+    width: 1250px;
+    border-radius: 10px;
+}
+
+
+/* this breakpoint coming from tailwind website, you can check it out! */
+
+@media (max-width: 1536px) {
+    .video-player {
+        width: 1000px;
+    }
+    .description {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .button {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .video-player {
+        width: 720px;
+    }
+    .description {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .button {
+        font-size: large;
+        margin-bottom: 15px;
+        padding: 10px 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header {
+        font-size: 26px;
+    }
+    .description {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .button {
+        font-size: large;
+        margin-bottom: 15px;
+        padding: 10px 40px;
+    }
+    .video-player {
+        width: 580px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        font-size: 20px;
+    }
+    .button {
+        font-size: large;
+        margin-bottom: 15px;
+        padding: 10px 30px;
+    }
+    .description {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .video-player {
+        width: 430px;
+    }
+}
+
+@media (max-width: 640px) {
+    .header-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .header {
+        padding: 0px 30px;
+        font-size: 40px;
+        font-weight: 900;
+    }
+    .button {
+        font-weight: 600;
+        font-size: large;
+        margin: 18px;
+        padding: 15px 30px;
+    }
+    .description {
+        padding: 0px 20px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .video-player {
+        width: 370px;
+        margin-top: 15px;
+    }
 }
