@@ -1,10 +1,12 @@
 .navbar {
+  height: 10vh;
   display: flex;
   align-items: center;
   direction: rtl;
   position: relative;
   width: 100%;
   background-color: white;
+  border-bottom: 1px solid rgba(100, 102, 100, 0.466);
 }
 
 .hidden-menu {
@@ -25,7 +27,7 @@
 }
 
 .nav-logo {
-  margin: 40px 40px 40px 5px;
+  margin: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,16 +53,22 @@
   padding-right: 15px;
   color: rgb(100, 102, 100);
   font-size: 15px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+.nav-items > ul > li:hover {
+  color: rgb(32, 161, 84);
+  font-weight: bold;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 850px) {
   .navbar {
     direction: ltr;
     justify-content: space-between;
     height: 65px;
   }
   .nav-logo {
-    margin-left: 18px;
+    margin-left: 2rem;
   }
 
   .nav-menu {
