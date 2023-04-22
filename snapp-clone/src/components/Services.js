@@ -2,6 +2,8 @@ import React from "react";
 
 import classes from "../styles/Services.module.css";
 
+import Card from "./UI/Card";
+
 const servicesData = [
   {
     imgsrc: "https://snapp.ir/assets/images/snapp-services/cab.svg",
@@ -75,7 +77,7 @@ const Services = () => {
       </h1>
       <div className={classes["services-container"]}>
         {servicesData.map((item, index) => (
-          <div className={classes["services-wrapper"]}>
+          <Card className={classes["services-wrapper"]}>
             <img
               className={classes["services-image"]}
               src={item.imgsrc}
@@ -87,7 +89,7 @@ const Services = () => {
                 {item.description}
               </p>
             </div>
-          </div>
+          </Card>
         ))}
       </div>
     </div>

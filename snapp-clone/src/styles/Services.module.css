@@ -31,6 +31,40 @@
   border-radius: 15px;
   width: 360px;
   padding: 10px;
+  cursor: pointer;
+}
+
+.services-wrapper:nth-child(1):hover,
+.services-wrapper:nth-child(2):hover,
+.services-wrapper:nth-child(3):hover {
+  color: rgb(31, 180, 106);
+  border: 2px solid rgb(31, 180, 106);
+}
+
+.services-wrapper:nth-child(4):hover {
+  color: rgb(202, 35, 146);
+  border: 2px solid rgb(202, 35, 146);
+}
+.services-wrapper:nth-child(5):hover,
+.services-wrapper:nth-child(6):hover {
+  color: rgb(31, 66, 180);
+  border: 2px solid rgb(31, 66, 180);
+}
+
+.services-wrapper:nth-child(7):hover,
+.services-wrapper:nth-child(8):hover,
+.services-wrapper:nth-child(10):hover,
+.services-wrapper:nth-child(11):hover {
+  color: rgb(230, 44, 44);
+  border: 2px solid rgb(230, 44, 44);
+}
+.services-wrapper:nth-child(9):hover {
+  color: rgb(56, 214, 188);
+  border: 2px solid rgb(56, 214, 188);
+}
+.services-wrapper:nth-child(12):hover {
+  color: rgb(175, 31, 180);
+  border: 2px solid rgb(175, 31, 180);
 }
 
 .services-title {
@@ -73,7 +107,7 @@
   .services-main {
     margin-top: 0;
   }
-  
+
   .services-container {
     gap: 35px;
   }
