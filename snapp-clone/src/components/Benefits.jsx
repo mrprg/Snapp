@@ -31,6 +31,24 @@ const Benefits = () => {
           </video>
         </div>
       </div>
+      <div className="cards">
+        <div className="card">
+          <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-hour.png" alt="image" />
+          <p>این یک متن آزماشی است</p>
+        </div>
+        <div className="card">
+          <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-income.png" alt="image" />
+          <p>این یک متن آزمایشی است</p>
+        </div>
+        <div className="card">
+          <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-benefits.png" alt="image" />
+          <p>این یک متن آزمایشی است </p>
+        </div>
+        <div className="card">
+          <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-benefits.png" alt="" />
+          <p>این یک متن آزماشیی است </p>
+        </div>
+      </div>
     </div>
   );
 };
