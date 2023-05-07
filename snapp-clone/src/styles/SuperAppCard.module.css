@@ -1,0 +1,125 @@
+.board-container {
+  direction: ltr;
+  display: flex;
+  flex-direction: row;
+  margin: -4rem 10rem 0rem 10rem;
+  position: relative;
+  z-index: 2;
+}
+.board-wrapper {
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 1rem;
+}
+.board-image {
+  background: rgb(229, 231, 233);
+  border-radius: 10px;
+  margin: 0rem;
+}
+.board-image img {
+  padding: 1rem 3rem;
+}
+.board-text {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin: 1rem 0rem;
+  cursor: default;
+}
+.board-title {
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: rgb(78, 77, 77);
+  margin-bottom: 1rem;
+  animation: coloranimation 10s infinite 10s alternate ease-in-out;
+
+}
+.board-description {
+  line-height: 1.5rem;
+  font-weight: 100;
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1280px) {
+  .board-container {
+    flex-direction: column;
+  }
+  .board-image {
+    padding: 0rem 13rem;
+    align-self: center;
+  }
+  .board-text {
+    margin: 1rem 6rem;
+  }
+  .board-title {
+    font-size: 1.3rem;
+  }
+  .board-description {
+    font-weight: 400;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .board-image {
+    padding: 0rem 9rem;
+  }
+  .board-text {
+    /* margin: 1rem 6rem; */
+    margin-right: 1.5rem;
+    /* margin-left: 5rem; */
+  }
+}
+@media screen and (max-width: 768px) {
+  .board-image {
+    padding: 0rem 4rem;
+    /* align-self: center; */
+  }
+  .board-text {
+    /* margin: 1rem 6rem; */
+    margin-right: 0rem;
+    margin-left: 0rem;
+  }
+  .board-title {
+    /* font-size: 1.3rem; */
+  }
+  .board-description {
+    /* font-weight: 400; */
+    margin-left: 0rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .board-image {
+    padding: 0rem 1rem;
+    /* align-self: center; */
+  }
+  .board-text {
+    /* margin: 1rem 6rem; */
+    margin: 0rem;
+    /* margin-right: 0rem;
+    margin-left: 0rem; */
+  }
+  .board-title {
+    /* font-size: 1.3rem; */
+  }
+  .board-description {
+    /* font-weight: 400; */
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
+/* .board-title {
+  animation: coloranimation 10s infinite 10s alternate ease-in-out;
+} */
+@keyframes coloranimation {
+  from {
+    color: springgreen;
+  }
+
+  to {
+    color: rgb(78, 77, 77);
+  }
+}
